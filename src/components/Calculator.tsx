@@ -7,6 +7,7 @@ interface CalculatorState {
 
 
 
+
 export default function Calculator() {
   const [calcState, setCalcState] = useState<CalculatorState>({ total: 0, previousTotal: 0 });
   const [value, setValue] = useState(0);
